@@ -1,0 +1,113 @@
+/* MAIN */
+body {
+    margin: 0em;
+    padding: 2em;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    background-image: url(../assets/space.jpg);
+    background-repeat: repeat;
+    overflow: hidden;
+}
+
+/* CLASS */
+.item {
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+}
+
+.star {
+    width: 24em;
+    height: 24em;
+    margin: 0%;
+    top: 45%;
+    left: 45%;
+    background-color: gold;
+    border: 3px solid yellow;
+    position: absolute;
+    border-radius: 50%;
+}
+
+/* ID */
+/* Mercury */
+#sun {
+    animation: spin 13s linear infinite;
+}
+
+/* Venus */
+#sun2 {
+    animation: spin 17s linear infinite;
+}
+
+/* Earth */
+#sun3 {
+    animation: spin 20s linear infinite;
+}
+
+/* Mars */
+#sun4 {
+    animation: spin 25s linear infinite;
+}
+
+/* Jupiter */
+#sun5 {
+    animation: spin 30s linear infinite;
+}
+
+#mercury {
+    width: 3px;
+    height: 3px;
+    background: #99979C;
+    color: white;
+    font-size: 1em;
+    animation: spin 580s linear infinite reverse;
+}
+
+#venus {
+    width: 9px;
+    height: 9px;
+    background: #C78223;
+    color: white;
+    font-size: 0.8em;
+    line-height: 25px;
+    animation: spin 243s linear infinite;
+}
+
+#earth {
+    width: 10px;
+    height: 10px;
+    background: blue;
+    color: greenyellow;
+    font-size: 1em;
+    animation: spin 10s linear infinite reverse;
+}
+
+#mars {
+    width: 6px;
+    height: 6px;
+    background: #FC845F;
+    color: 	#ffffff;
+    font-size: 1em;
+    line-height: 40px;
+    animation: spin 12s linear infinite reverse;
+}
+
+#jupiter {
+    width: 100px;
+    height: 100px;
+    background: #FC845F;
+    color: 	#ffffff;
+    font-size: 2em;
+    line-height: 100px;
+    animation: spin 4s linear infinite reverse;
+}
+
+/* ANIMATION */
+@keyframes spin {
+    100% {
+        transform: rotate(1turn);
+    }
+}
