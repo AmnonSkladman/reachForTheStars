@@ -15,19 +15,25 @@
     </head>
     <body>
         <div id="sun" class="star">
-            <div class="item" id="mercury"><p onclick="test()">Mercury</p></div>
+            <div class="item" id="mercury" onclick="info(this)"><p>Mercury</p></div>
         </div>
         <div id="sun2" class="star">
-             <div class="item" id="venus">Venus</div>
+             <div class="item" id="venus" onclick="info(this)"><p>Venus</p></div>
         </div>
         <div id="sun3" class="star">
-             <div class="item" id="earth">Earth</div>
+             <div class="item" id="earth"><p>Earth</p></div>
         </div>
         <div id="sun4" class="star">
-             <div class="item" id="mars">Mars</div>
+             <div class="item" id="mars"><p>Mars</p></div>
         </div>
         <div id="sun5" class="star">
-             <div class="item" id="jupiter">Jupiter</div>
+             <div class="item" id="jupiter"><p>Jupiter</p></div>
+        </div>
+        <div id="overlayBG">
+        </div>
+        <div id="overlay">
+            <h1 id="overlayHeader">Test</h1>
+            <p id="overlayContent"></p>
         </div>
         <!-- JavaScript -->
         <script src="scripts/script.js"></script>
