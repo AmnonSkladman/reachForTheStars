@@ -118,13 +118,13 @@ function info (e) {
             overlayP.html("Venus is the second planet from the sun and is named after the Roman goddess of love and beauty. It is no mistake, as its soft, delicate colour distracts from the planet's volatile nature. The planet is covered in thick sulfuric acid clouds, and its atmosphere is dense with 96% carbon dioxide. Although it's further away from the sun than Mercury, its average surface temperature is much hotter at 462 Celsius. The surface itself is a dry desert full of rocks and volcanoes. If there ever was a hell, Venus would most likely be it.");
             break;
         case "Earth":
-            overlayP.html("");
+            overlayP.html("Earth is the third planet from the sun, and is the only planet with confirmed life on it (though other planets may have bacterial life). Earth is also the densest planet in our solar system. About 71% of its surface is covered in water, most of which is oceans. Thanks to Earth's solid iron inner core and liquid outer core, the planet generates its own magnetic field, which protects us from solar winds and cosmic rays. <br/><br/>Having formed 4 billion years ago, Earth has a rich history. Although in the past it may have looked like Mars, life eventually began to develop within the first 1 billion years, and affected Earth's atmosphere and surface. Since then, life began to evolve, and the planet changed through many different periods.");
             break;
         case "Mars":
-            overlayP.html("");
+            overlayP.html("Mars is the fourth planet from the sun, and is named after the Roman god of war. Its nickname is The Red Planet, because the iron oxide that covers its surface looks reddish to the naked eye. Speaking of its surface, it's covered in deserts, valleys, craters, and polar caps. Mars even has two famous sites - Olympus Mons, the largest volcano in the solar system, as well as Valles Marineries, one of the largest canyons in the solar system. Mars has two moons, both of which are small and irregularly-shaped. Mars is unable to hold water on its surface, because its atmospheric pressure is less than 1% than that of Earth's. However, it does hold a lot of water in the form of ice in its polar caps, as well as underground.");
             break;
         case "Jupiter":
-            overlayP.html("");
+            overlayP.html("Coming soon!");
             break;
     }
     
