@@ -63,8 +63,9 @@ body {
     height: 3px;
     background: #99979C;
     color: white;
-    font-size: 1em;
+    font-size: 1.1em;
     animation: spin 580s linear infinite reverse;
+    box-shadow: 0 0 5px pink;
 }
 
 #venus {
@@ -72,9 +73,10 @@ body {
     height: 9px;
     background: #C78223;
     color: white;
-    font-size: 1em;
+    font-size: 1.1em;
     line-height: 25px;
     animation: spin 243s linear infinite;
+    box-shadow: 0 0 5px #FC845F;
 }
 
 #earth {
@@ -82,8 +84,9 @@ body {
     height: 10px;
     background: blue;
     color: white;
-    font-size: 1em;
+    font-size: 1.1em;
     animation: spin 10s linear infinite reverse;
+    box-shadow: 0 0 8px cyan;
 }
 
 #mars {
@@ -91,9 +94,10 @@ body {
     height: 6px;
     background: #FC845F;
     color: 	#ffffff;
-    font-size: 1em;
+    font-size: 1.1em;
     line-height: 40px;
     animation: spin 12s linear infinite reverse;
+    box-shadow: 0 0 5px #FEDD8E;
 }
 
 #jupiter {
@@ -104,6 +108,7 @@ body {
     font-size: 2em;
     line-height: 50px;
     animation: spin 4s linear infinite reverse;
+    box-shadow: 0 0 10px lightblue;
 }
 
 #overlayBG {
