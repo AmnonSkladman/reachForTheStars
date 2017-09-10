@@ -99,6 +99,25 @@ var jupStep = (2 * Math.PI) / jupiter.length;
 //////////////////////////
 //Functions - Info
 
-function test () {
-    console.log("I've been clicked!");
-}
+function info (e) {
+    var overlay = $("#overlay");
+    var overlayBG = $("#overlayBG");
+    var overlayH1 =  $("#overlayHeader");
+    var overlayP =  $("#overlayContent");
+    var target = e.childNodes[0].innerHTML;
+    
+    overlay.fadeToggle(100);
+    overlayBG.fadeToggle(100);
+    overlayH1.html(target);
+    
+    switch (target) {
+        case "Mercury":
+            overlayP.html("Mercury is the closest planet to the sun and is named after the Roman deity Mercury, who was the messenger to the gods. Because it does not have an atmosphere, its surface temperature can range from -170 Celsius to 430 Celsius. Although it's roughly a third the size of Earth, its day cycle is very long at 58 days 15 hours 30 minutes. Gravity on Mercury is also about a third that of Earth's, meaning that you would weigh much less! Mercury resembles Luna, our moon, due to its surface being covered in craters, as well as due to its greyish colour.");
+            break;
+        case "Venus":
+            overlayP.html("Venus is the second planet from the sun and is named after the Roman goddess of love and beauty. It is no mistake, as its soft, delicate colour distracts from the planet's volatile nature. The planet is covered in thick sulfuric acid clouds, and its atmosphere is dense with 96% carbon dioxide. Although it's further away from the sun than Mercury, its average surface temperature is much hotter at 462 Celsius. The surface itself is a dry desert full of rocks and volcanoes. If there ever was a hell, Venus would most likely be it.");
+            break;
+    }
+    
+    $("#overlayBG").height($("#overlay").height()) ;
+};
