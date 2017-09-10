@@ -117,6 +117,15 @@ function info (e) {
         case "Venus":
             overlayP.html("Venus is the second planet from the sun and is named after the Roman goddess of love and beauty. It is no mistake, as its soft, delicate colour distracts from the planet's volatile nature. The planet is covered in thick sulfuric acid clouds, and its atmosphere is dense with 96% carbon dioxide. Although it's further away from the sun than Mercury, its average surface temperature is much hotter at 462 Celsius. The surface itself is a dry desert full of rocks and volcanoes. If there ever was a hell, Venus would most likely be it.");
             break;
+        case "Earth":
+            overlayP.html("");
+            break;
+        case "Mars":
+            overlayP.html("");
+            break;
+        case "Jupiter":
+            overlayP.html("");
+            break;
     }
     
     $("#overlayBG").height($("#overlay").height()) ;
